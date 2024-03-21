@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\d.samokovski24.ACSLAB\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\d.samokovski24.ACSLAB\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)regexmatcher\1.0.8\contentFiles\any\net6.0\Assets\icon.ico" Condition="Exists('$(NuGetPackageRoot)regexmatcher\1.0.8\contentFiles\any\net6.0\Assets\icon.ico')">
+      <NuGetPackageId>RegexMatcher</NuGetPackageId>
+      <NuGetPackageVersion>1.0.8</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Assets\icon.ico</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)regexmatcher\1.0.8\contentFiles\any\net6.0\Assets\icon.png" Condition="Exists('$(NuGetPackageRoot)regexmatcher\1.0.8\contentFiles\any\net6.0\Assets\icon.png')">
+      <NuGetPackageId>RegexMatcher</NuGetPackageId>
+      <NuGetPackageVersion>1.0.8</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Assets\icon.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)regexmatcher\1.0.8\contentFiles\any\net6.0\LICENSE.md" Condition="Exists('$(NuGetPackageRoot)regexmatcher\1.0.8\contentFiles\any\net6.0\LICENSE.md')">
+      <NuGetPackageId>RegexMatcher</NuGetPackageId>
+      <NuGetPackageVersion>1.0.8</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LICENSE.md</Link>
+    </Content>
+  </ItemGroup>
+</Project>
